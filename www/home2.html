@@ -161,6 +161,7 @@
 </html>
 <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
 <script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="js/html5-qrcode.min.js"></script>
 <script type="text/javascript">
     $(document).ready(function(){
 		//QRScanner.prepare(onDone);
@@ -181,8 +182,8 @@
 			if (document.getElementById('lblScanText').innerHTML=='Scan') {
 			    alert("Select Visitor or Employee");}
 			else{
-					QRScanner.show();
-					//scan();
+					//QRScanner.show();
+					scan();
 				}
 			var element = document.getElementById("scan");
 			  element.style.backgroundColor='#99b8c1';
@@ -262,4 +263,28 @@ function displayContents(err, text){
 QRScanner.show();
 // Be sure to make any opaque HTML elements transparent here to avoid 
 // covering the video.    
+
+
+
+
+
+ function scan() {
+ html5_qrcode(function(data){
+ 		 // do something when code is read
+		 alert(data);
+ 	},
+ 	function(error){
+		//show read errors 
+	}, function(videoError){
+		//the video stream could be opened
+	}
+);
+}
+
+
+
+
+
+
+
 </script>
