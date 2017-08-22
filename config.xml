@@ -26,6 +26,9 @@
     <preference name="StatusBarOverlaysWebView" value="false" />
     <preference name="StatusBarBackgroundColor" value="#ff6a00" />
     <preference name="StatusBarStyle" value="lightcontent" />
+	<uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
     <!--<gap:plugin name="org.apache.cordova.camera"/>
     <gap:plugin name="org.apache.cordova.media-capture"/>
     <gap:plugin name="org.apache.cordova.device"/>
