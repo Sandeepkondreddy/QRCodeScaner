@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.kpcl.QRcan" version="1.0">
     <name>QR Scan</name>
-    <description>Qr Scaner</description>
+    <description>QR Scaner</description>
     <author href="http://www.krishnapatnamport.com" email="epms_support@krishnapatnamport.com">Krishnapatnam Port Company Ltd.</author>
     <content src="home2.html"/>
     <preference name="permissions" value="none"/>
