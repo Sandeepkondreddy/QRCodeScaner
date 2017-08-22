@@ -61,7 +61,8 @@
     <plugin name="cordova-plugin-network-information" source="npm" />
     <plugin name="cordova-plugin-splashscreen" source="npm" />
     <plugin name="cordova-plugin-vibration" source="npm" />
-    <plugin name="cordova-plugin-barcodescanner" source="npm" />
+    <!--<plugin name="cordova-plugin-barcodescanner" source="npm" />-->
+	 <plugin name="cordova-plugin-qrscanner" source="npm" />
     <plugin name="cordova-plugin-statusbar" source="npm" />
     <plugin name="imeiplugin" source="npm" />
     <plugin name="cordova-plugin-whitelist" source="npm" />
