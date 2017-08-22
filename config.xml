@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.kpcl.passscan" version="1.0">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.kpcl.QRcan" version="1.0">
     <name>QR Scan</name>
     <description>Visitor and Employee Pass Scan is a mobile app to scan using qr code to display visitor and blocked employee details. It is developed for Krishnapatnam Port Company Ltd.</description>
     <author href="http://www.krishnapatnamport.com" email="epms_support@krishnapatnamport.com">Krishnapatnam Port Company Ltd.</author>
